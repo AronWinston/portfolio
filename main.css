@@ -1,0 +1,32 @@
+body{
+    font-family: 'Playfair Display', serif;
+    background-image: linear-gradient(to bottom right,lightblue, white);
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#gitpic{
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top:10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.pro{
+    border-radius: 50%;
+}
+
+img:hover{
+    opacity: .75;
+}
