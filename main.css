@@ -30,7 +30,8 @@ body{
 
 .about{
     height: inherit;
-   
+    margin-top: 20px;
+
     
     color: black;
     font-family: 'Montserrat', sans-serif;
