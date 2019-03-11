@@ -1,18 +1,57 @@
 body{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
     background-image: linear-gradient(to bottom right,lightblue, white);
+    margin: 0;
+    padding: 0;
 }
 
 .head{
-    display: flex;
+    display: inline-block;
     justify-content: center;
-    margin: 20px;
+    
+    width: 100%;
+    height: 500px;
+
+    
 }
 
 #gitpic{
     border-radius: 50%;
     margin-right: 20px;
     margin-top:10px;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.about{
+    height: inherit;
+   
+    
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+
+.projects{
+    height: inherit;
+   
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+.education{
+    height: inherit;
+    
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
 }
 
 a{
@@ -29,4 +68,36 @@ li{
 
 img:hover{
     opacity: .75;
+}
+
+@media (min-width: 300px) {
+    a{
+        font-size: 1.5rem;
+        
+    }
+    .resume{
+        width: 290px;
+        font-size: 1.5rem;
+    }
+}
+
+@media(min-width:600px){
+    .resume{
+        width: 560px;
+        font-size: 1.5rem;
+    }
+}
+
+@media(min-width:900px){
+    .resume{
+        width: 860px;
+        font-size: 1.5rem;
+    }
+}
+
+@media(min-width:1200px){
+    .resume{
+        width: 1170px;
+        font-size: 1.5rem;
+    }
 }
