@@ -24,13 +24,13 @@ body{
 .skills{
     display: flex;
     justify-content: center;
-    margin: 25px;
+    margin-bottom: 25px;
     padding: 10px;
 }
 
 .about{
     height: inherit;
-    margin-top: 20px;
+    margin-top: 25px;
 
     
     color: black;
