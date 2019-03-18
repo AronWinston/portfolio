@@ -81,6 +81,9 @@ img:hover{
         width: 290px;
         font-size: 1.5rem;
     }
+    .skills{
+        font-size: .75em;
+    }
 }
 
 @media(min-width:600px){
