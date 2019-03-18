@@ -88,6 +88,9 @@ img:hover{
     .about{
         font-size: .75em;
     }
+    .education{
+        font-size: .75em;
+    }
 }
 
 @media(min-width:600px){
@@ -101,6 +104,9 @@ img:hover{
     }
 
     .about{
+        font-size: .75em;
+    }
+    .education{
         font-size: .75em;
     }
 }
@@ -117,6 +123,11 @@ img:hover{
     .skills{
         font-size: 1.5em;
     }
+
+    .education{
+        font-size: 1.5em;
+    }
+
 }
 
 @media(min-width:1200px){
@@ -131,5 +142,9 @@ img:hover{
     .skills{
         font-size: 1.5em;
         margin: 20px;
+    }
+
+    .education{
+        font-size: 1.5em;
     }
 }
