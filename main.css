@@ -110,11 +110,26 @@ img:hover{
         width: 860px;
         font-size: 1.5rem;
     }
+    .about{
+        font-size: 1.5em;
+        margin: 100px;
+    }
+    .skills{
+        font-size: 1.5em;
+    }
 }
 
 @media(min-width:1200px){
     .resume{
         width: 1170px;
         font-size: 1.5rem;
+    }
+    .about{
+        font-size: 1.5em;
+        margin-top: 100px;
+    }
+    .skills{
+        font-size: 1.5em;
+        margin: 20px;
     }
 }
