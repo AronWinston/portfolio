@@ -39,7 +39,7 @@ ul{
 }
 
 .about{
-    height: inherit;
+    height: fit-content;
     margin-top: 40px;
 
     
@@ -54,7 +54,7 @@ ul{
 
 
 .projects{
-    height: inherit;
+    height: fit-content;
    
     color: black;
     font-family: 'Montserrat', sans-serif;
@@ -106,16 +106,16 @@ img:hover{
     }
     .skills{
         font-size: .75em;
-        height: inherit;
+        height: fit-content;
     }
 
     .about{
         font-size: .75em;
-        height: inherit;
+        height: fit-content;
     }
     .education{
         font-size: .75em;
-        height: inherit;
+        height: fit-content;
     }
     .projects img{
         height: 100px;
@@ -131,21 +131,21 @@ img:hover{
 
     .skills{
         font-size: .75em;
-        height: inherit;
+        height: fit-content;
     }
 
     .about{
         font-size: .75em;
-        height: inherit;
+        height: fit-content;
     }
     .education{
         font-size: .75em;
-        height: inherit;
+        height: fit-content;
     }
 
     .lad{
         font-size: .75em;
-        height: inherit;
+        height: fit-content;
     }
 
     .projects img{
@@ -162,11 +162,11 @@ img:hover{
     .about{
         font-size: 1.5em;
         margin: 20px;
-        height: inherit;
+        height: fit-content;
     }
     .skills{
         font-size: 1.5em;
-        height: inherit;
+        height: fit-content;
     }
 
     .projects img{
@@ -177,7 +177,7 @@ img:hover{
 
     .education{
         font-size: 1.5em;
-        height: inherit;
+        height: fit-content;
         border: 2px solid black;
     }
 
@@ -195,17 +195,17 @@ img:hover{
     .about{
         font-size: 1.5em;
         margin-top: 20px;
-        height: inherit;
+        height: fit-content;
     }
     .skills{
         font-size: 1.5em;
         margin: 20px;
-        height: inherit;
+        height: fit-content;
     }
 
     .education{
         font-size: 1.5em;
-        height: inherit;
+        height: fit-content;
     }
 
     h2{
