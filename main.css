@@ -106,13 +106,16 @@ img:hover{
     }
     .skills{
         font-size: .75em;
+        height: inherit;
     }
 
     .about{
         font-size: .75em;
+        height: inherit;
     }
     .education{
         font-size: .75em;
+        height: inherit;
     }
     .projects img{
         height: 100px;
@@ -128,17 +131,21 @@ img:hover{
 
     .skills{
         font-size: .75em;
+        height: inherit;
     }
 
     .about{
         font-size: .75em;
+        height: inherit;
     }
     .education{
         font-size: .75em;
+        height: inherit;
     }
 
     .lad{
         font-size: .75em;
+        height: inherit;
     }
 
     .projects img{
@@ -155,9 +162,11 @@ img:hover{
     .about{
         font-size: 1.5em;
         margin: 20px;
+        height: inherit;
     }
     .skills{
         font-size: 1.5em;
+        height: inherit;
     }
 
     .projects img{
@@ -168,7 +177,7 @@ img:hover{
 
     .education{
         font-size: 1.5em;
-       
+        height: inherit;
         border: 2px solid black;
     }
 
@@ -186,14 +195,17 @@ img:hover{
     .about{
         font-size: 1.5em;
         margin-top: 20px;
+        height: inherit;
     }
     .skills{
         font-size: 1.5em;
         margin: 20px;
+        height: inherit;
     }
 
     .education{
         font-size: 1.5em;
+        height: inherit;
     }
 
     h2{
