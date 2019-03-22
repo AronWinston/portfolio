@@ -1,5 +1,5 @@
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Germania One', cursive;
     background-image: linear-gradient(to bottom right,lightblue, white);
     margin: 0;
     padding: 0;
@@ -20,8 +20,8 @@ ul{
     margin: 1.5em;
 }
 
-.lad{
-    font-size: 1.5em;
+.lad h2{
+    font-size: 2em;
 }
 
 #gitpic{
@@ -44,7 +44,7 @@ ul{
 
     
     color: black;
-    font-family: 'Montserrat', sans-serif;
+    
     font-size: 1.5rem;
     border: 2px solid black;
     margin: 20px;
@@ -57,7 +57,7 @@ ul{
     height: fit-content;
    
     color: black;
-    font-family: 'Montserrat', sans-serif;
+    
     font-size: 1.5rem;
     border: 2px solid black;
     padding: 10px;
@@ -68,7 +68,7 @@ ul{
     
     
     color: black;
-    font-family: 'Montserrat', sans-serif;
+    
     font-size: 1.5rem;
     border: 2px solid black;
     margin: 20px;
