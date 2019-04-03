@@ -1,6 +1,6 @@
 body{
     font-family: 'Germania One', cursive;
-    background-image: linear-gradient(to bottom right,lightblue, white);
+    background-image: linear-gradient(to bottom right, grey, silver);
     margin: 0;
     padding: 0;
 }
@@ -25,9 +25,10 @@ ul{
 }
 
 #gitpic{
-    border-radius: 50%;
-    margin-right: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
     margin-top:10px;
+    box-shadow: 2px 0px 0 2px grey;
 }
 
 .skills{
@@ -36,12 +37,13 @@ ul{
     margin: 20px;
     padding: 10px;
     border: 2px solid black;
+    background-color: white;
 }
 
 .about{
     height: fit-content;
     margin-top: 40px;
-
+    background-color: white;
     
     color: black;
     
@@ -55,7 +57,7 @@ ul{
 
 .projects{
     height: fit-content;
-   
+    background-color: white;
     color: black;
     
     font-size: 1.5rem;
@@ -68,7 +70,7 @@ ul{
     
     
     color: black;
-    
+    background-color: white;
     font-size: 1.5rem;
     border: 2px solid black;
     margin: 20px;
@@ -88,10 +90,18 @@ li{
 }
 
 .pro{
-    border-radius: 50%;
+    border-radius: 5px;
 }
 
-img:hover{
+.clickable{
+    margin: 10px;
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 0 0 2px grey;
+}
+
+.clickable:hover{
     opacity: .75;
 }
 
