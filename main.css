@@ -37,6 +37,7 @@ ul{
     margin: 20px;
     padding: 10px;
     border: 2px solid black;
+    border-radius: 10px;
     background-color: white;
 }
 
@@ -49,6 +50,7 @@ ul{
     
     font-size: 1.5rem;
     border: 2px solid black;
+    border-radius: 10px;
     margin: 20px;
     padding: 10px;
 }
@@ -62,23 +64,33 @@ ul{
     
     font-size: 1.5rem;
     border: 2px solid black;
+    border-radius: 10px;
     padding: 10px;
     margin: 20px;
 }
 
+.project{
+    display: inline-block;
+    
+}
+
+
+
 .education{
     
-    
+    text-align: center;
     color: black;
     background-color: white;
     font-size: 1.5rem;
     border: 2px solid black;
-    margin: 20px;
-    padding: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
 }
 
-.education img{
-    margin: 15px;
+.education img, li{
+    margin: 20px;
 }
 
 a{
@@ -131,6 +143,9 @@ li{
         height: 100px;
         width: 100px;
     }
+    .projects p{
+        font-size: .25em;
+    }
 }
 
 @media(min-width:600px){
@@ -162,6 +177,10 @@ li{
         height: 100px;
         width: 100px;
     }
+
+    .project p{
+        font-size: .75em;
+    }
 }
 
 @media(min-width:900px){
@@ -183,6 +202,10 @@ li{
         height: 200px;
         width: 200px;
 
+    }
+
+    .project p{
+        font-size: .75em;
     }
 
     .education{
