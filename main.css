@@ -41,6 +41,10 @@ ul{
     background-color: white;
 }
 
+.skill{
+    margin: 20px 10%;
+}
+
 .about{
     height: fit-content;
     margin-top: 40px;
