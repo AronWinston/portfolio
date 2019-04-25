@@ -135,6 +135,10 @@ li{
         height: fit-content;
     }
 
+    .skill{
+        margin: 0 5px;
+    }
+
     .about{
         font-size: .75em;
         height: fit-content;
@@ -161,6 +165,10 @@ li{
     .skills{
         font-size: .75em;
         height: fit-content;
+    }
+
+    .skill{
+        margin: 0 10px;
     }
 
     .about{
@@ -202,6 +210,10 @@ li{
         height: fit-content;
     }
 
+    .skill{
+        margin: 0 20px;
+    }
+
     .projects img{
         height: 200px;
         width: 200px;
@@ -238,6 +250,10 @@ li{
         font-size: 1.5em;
         margin: 20px;
         height: fit-content;
+    }
+
+    .skill{
+        margin: 0 10%;
     }
 
     .education{
