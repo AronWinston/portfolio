@@ -93,7 +93,13 @@ ul{
     padding: 0;
 }
 
-.education img, li{
+.education img{
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.education li{
     margin: 20px;
 }
 
