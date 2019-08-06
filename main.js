@@ -27,17 +27,17 @@ window.addEventListener ('scroll', (event) => {
     two.classList.add("fadein");
   }
 
-  if(window.scrollY > 800){
+  if(window.scrollY > 1000){
     projects.classList.add("fadein");
     three.classList.add("fadein");
   }
 
-  if(window.scrollY > 1200){
+  if(window.scrollY > 1500){
     education.classList.add("fadein");
     four.classList.add("fadein");
   }
 
-  if(window.scrollY > 1600){
+  if(window.scrollY > 1800){
     resume.classList.add("fadein");
     five.classList.add("fadein");
   }
