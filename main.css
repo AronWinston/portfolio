@@ -24,11 +24,63 @@ ul{
     font-size: 2em;
 }
 
+#one{
+    opacity: 0;
+}
+
+#one.fadein{
+    animation: fadein;
+    animation-duration: .8s;
+    animation-fill-mode: forwards;
+}
+
+#two{
+    opacity: 0;
+}
+
+#two.fadein{
+    animation: fadein;
+    animation-duration: .8s;
+    animation-fill-mode: forwards;
+}
+
+#three{
+    opacity: 0;
+}
+
+#three.fadein{
+    animation: fadein;
+    animation-duration: .8s;
+    animation-fill-mode: forwards;
+}
+
+#four{
+    opacity: 0;
+}
+
+#four.fadein{
+    animation: fadein;
+    animation-duration: .8s;
+    animation-fill-mode: forwards;
+}
+
+#five{
+    opacity: 0;
+}
+
+#five.fadein{
+    animation: fadein;
+    animation-duration: .8s;
+    animation-fill-mode: forwards;
+}
+
 #gitpic{
     border-radius: 10px;
     border: 2px solid black;
     margin-top:10px;
     box-shadow: 2px 0px 0 2px grey;
+    height: 500px;
+    width: 500px;
 }
 
 .skills{
@@ -39,19 +91,26 @@ ul{
     border: 2px solid black;
     border-radius: 10px;
     background-color: white;
+    opacity: 0;
+}
+
+.skills.fadein {
+    animation: fadein;
+    animation-duration: .8s;
+    animation-fill-mode: forwards;
 }
 
 .skill{
     margin: 20px 5px;
+    
 }
 
 .about{
     height: fit-content;
     margin-top: 40px;
     background-color: white;
-    
+    opacity: 0;
     color: black;
-    
     font-size: 1.5rem;
     border: 2px solid black;
     border-radius: 10px;
@@ -59,13 +118,17 @@ ul{
     padding: 10px;
 }
 
-
+.about.fadein {
+    animation: fadein;
+    animation-duration: .8s;
+    animation-fill-mode: forwards;
+}
 
 .projects{
     height: fit-content;
     background-color: white;
     color: black;
-    
+    opacity: 0;
     font-size: 1.5rem;
     border: 2px solid black;
     border-radius: 10px;
@@ -73,24 +136,33 @@ ul{
     margin: 20px;
 }
 
-.project{
-    display: inline-block;
-    
+.projects.fadein {
+    animation: fadein;
+    animation-duration: .8s;
+    animation-fill-mode: forwards;
 }
 
-
+.project{
+    display: inline-block;
+}
 
 .education{
-    
     text-align: center;
     color: black;
     background-color: white;
+    opacity: 0;
     font-size: 1.5rem;
     border: 2px solid black;
     border-radius: 10px;
     margin-left: 20px;
     margin-right: 20px;
     padding: 0;
+}
+
+.education.fadein {
+    animation: fadein;
+    animation-duration: .8s;
+    animation-fill-mode: forwards;
 }
 
 .education img{
@@ -127,11 +199,27 @@ li{
     opacity: .75;
 }
 
+.resume{
+    opacity: 0;
+}
+
+.resume.fadein{
+    animation: fadein;
+    animation-duration: .8s;
+    animation-fill-mode: forwards;
+}
+
 @media (min-width: 300px) {
     a{
         font-size: 1.5rem;
         
     }
+
+    #gitpic{
+        height: 300px;
+        width: 300px;
+    }
+
     .resume{
         width: 290px;
         font-size: 1.5rem;
@@ -269,5 +357,23 @@ li{
 
     h2{
         font-size: 1.5em;
+    }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: .5;
+    }
+
+    75% {
+        opacity: .75;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
