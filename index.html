@@ -7,6 +7,8 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="main.css">
     <link rel="shortcut icon" type="image/png" href="bran_fav.jpg"/>
+    <!-- <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script> -->
+    
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Germania+One" rel="stylesheet">
@@ -16,7 +18,7 @@
 <div class="head">
     
     <h1><strong>Aron Winston</strong></h1>
-    <img id="gitpic" src="github.jpg" height="164rem" width="164rem">
+    <img id="gitpic" src="github.jpg">
     
     <p><em>Junior Full Stack Web Developer</em></p>
     <nav>
@@ -29,18 +31,19 @@
     </nav>
 
     
-    <h2 class="lad">Languages and Skills</h2>
+    <h2 id="one" class="lad">Languages and Skills</h2>
     <div class="skills">
             
-    <ul>
+    <div class="skill">
         <li>JavaScript</li>
         <li>Ruby</li>
         <li>HTML5</li>
         <li>CSS</li>
         <li>SQL</li>
         <li>JQeury</li>
-    </ul>
-    <ul>
+    </div>
+
+    <div class="skill">
         <li>React.js</li>
         <li>Ruby on Rails</li>
         <li>Bootsrap</li>
@@ -48,12 +51,12 @@
         <li>Sinatra</li>
         <li>Postgresql</li>
 
-    </ul>
+    </div>
 </div>
 
     
 
-<h2 class='lad'>About Me</h2>
+<h2 id="two" class='lad'>About Me</h2>
 <div class="about">
     
     
@@ -62,49 +65,66 @@
         people by making tasks simpler, more efficient and enjoyable.</p>
     </div>
 
-    <h2 class="lad">Projects</h2>
+    <h2 id="three" class="lad">Projects</h2>
     <div class="projects">
-           
+         
+        <div class="project">
         <a target="_blank" href="http://movieverse.herokuapp.com">
             <img class="clickable" class="pro" src="movie.jpeg" height="250px" width="250px">
         </a>
+            <p>email: test@test.com</p>
+            <p>password: test123</p>
+        </div>
+        <div class="project">
         <a target="_blank" href="https://aronsadmin.herokuapp.com/">
             <img class="clickable"  class="pro" src="admin.jpeg" height="250px" width="250px">
         </a>
+            <p>email: test@test.com</p>
+            <p>password: test123</p>
+        </div>
+        <div class="project">
         <a target="_blank" href="https://local-living.herokuapp.com/">
             <img class="clickable"  class="pro" src="localliving.jpeg" height="250px" width="250px">
         </a>
-
+            <p>username: testuser</p>
+            <p>password: test123</p>
+        </div>
+        <div class="project">
         <a target="_blank" href="https://fitfriendsapp.herokuapp.com/">
             <img class="clickable"  class="pro" src="fitapp.jpg" height="250px" width="250px">
         </a>
+            <p>email: test@test.com</p>
+            <p>password: test123</p>
+        </div>
 
     </div>
     
     <center>
-    <h2 class="lad">Education</h2>
+    <h2 id="four" class="lad">Education</h2>
     </center>
     <div class="education">
         
-        <ul>
-            <center>
+        
+            
             <img  src="nycdalogo.jpeg" height="150px" width="150px">
                 <li>Full Stack Web Development - New York Code and Design Academy</li>
             <img  src="sunyalbany.png" height="150px" width="150px">
                 <li>BS in Mathematics - University at Albany, State University of New York</li>
             <img  src="aiplanguage.png" height="150px" width="150px">
                 <li>European Economics and Spanish - AIP Language Institute, Valencia, Spain</li>
-            </center>
-        </ul>
+            
+        
     </div>
 
 
-    <h2 class="lad">Resume</h2> 
+    <h2 id="five" class="lad">Resume</h2> 
     <div class="resume">
         
         <embed src= "aron-winston-resume.pdf" width= "100%" height= "400">
     </div>
 
     </center>
+
+    <script src="main.js"></script>
 </body>
 </html>
