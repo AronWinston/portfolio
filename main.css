@@ -30,7 +30,7 @@ ul{
 
 #one.fadein{
     animation: fadein;
-    animation-duration: .8s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -40,7 +40,7 @@ ul{
 
 #two.fadein{
     animation: fadein;
-    animation-duration: .8s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -50,7 +50,7 @@ ul{
 
 #three.fadein{
     animation: fadein;
-    animation-duration: .8s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -60,7 +60,7 @@ ul{
 
 #four.fadein{
     animation: fadein;
-    animation-duration: .8s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -70,7 +70,7 @@ ul{
 
 #five.fadein{
     animation: fadein;
-    animation-duration: .8s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -96,7 +96,7 @@ ul{
 
 .skills.fadein {
     animation: fadein;
-    animation-duration: .8s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -120,7 +120,7 @@ ul{
 
 .about.fadein {
     animation: fadein;
-    animation-duration: .8s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -138,7 +138,7 @@ ul{
 
 .projects.fadein {
     animation: fadein;
-    animation-duration: .8s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -161,7 +161,7 @@ ul{
 
 .education.fadein {
     animation: fadein;
-    animation-duration: .8s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -205,7 +205,7 @@ li{
 
 .resume.fadein{
     animation: fadein;
-    animation-duration: .8s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -365,12 +365,20 @@ li{
         opacity: 0;
     }
 
-    25% {
-        opacity: .5;
+    20% {
+        opacity: .2;
     }
 
-    75% {
-        opacity: .75;
+    40% {
+        opacity: .4;
+    }
+
+    60% {
+        opacity: .6;
+    }
+
+    80% {
+        opacity: .8;
     }
 
     100% {
